@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.blog-page{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 2533px;
+    background-color: #F6F7FB;
+}
+.blog-page-nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 0 0 42px;
+}
+.blog-page-logo ,.blog-page-user{
+    position: absolute;
+    display: flex;
+}
+.blog-page-logo h1 ,.blog-page-links ul li a ,.first-blog-page-text h2 ,.first-blog-page-text p ,.first-post-date button ,.first-post-date p ,.first-post-info h4 ,.first-post-info a ,.small-post-info h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.blog-page-links ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: -5px 0 0 120px;
+}
+.blog-page-links ul li{
+    padding: 10px;
+}
+.blog-page-links ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #000000;
+}
+.blog-page-search{
+    position: absolute;
+    display: flex;
+    margin: -5px 0 0 855px;
+}
+.blog-page-search input{
+    width: 439px;
+    height: 42.25px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    transform: rotate(-0.08deg);
+}
+.blog-page-user{
+    margin: -4px 0 0 1360px;
+    width: 38px;
+    height: 36px;
+    cursor: pointer;
+}
+.blog-page-user img{
+    width: 38px;
+    height: 36px;
+}
+.first-blog-page ,.first-blog-page-image{
+    position: absolute;
+    display: flex;
+    margin: 200px 0 0 42px;
+}
+.first-blog-page-text{
+    position: relative;
+    display: inline-block;
+    margin: 110px 0 0 120px;
+}
+.first-blog-page-text p{
+    font-size: 24px;
+    line-height: 36px;    
+    color: #828282;
+}
+.first-blog-page-text h2{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.first-blog-page-image{
+    width: 572px;
+    height: 501px;
+    margin: -30px 0 0 723px;
+    border-radius: 10px;
+}
+.first-blog-page-image img{
+    width: 572px;
+    height: 501px;
+}
+.second-blog-page{
+    position: absolute;
+    display: flex;
+    margin: 800px 0 0 165px;
+}
+.first-post ,.first-post-image{
+    position: absolute;
+    display: flex;
+    height: 640px;
+    width: 572px;
+    border-radius: 10px;
+}
+.first-post-image ,.first-post-image img{
+    height: 500px;
+}
+.first-post-image img{
+    width: 572px;
+}
+.first-post-date{
+    position: absolute;
+    display: flex;
+    margin-top: 505px;
+}
+.first-post-date button ,.small-post-date button{
+    color: #ffffff;
+    width: 109px;
+    height: 28px;
+    background-color: #9B51E0;
+    border-radius: 10px;
+    border: 1px solid #9B51E0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.first-post-date p ,.small-post-date p{
+    margin-left: 50px;
+    color: #828282;
+}
+.first-post-info ,.small-post-info{
+    position: absolute;
+    display: inline-block;
+    margin-top: 545px;
+}
+.first-post-info a ,.small-post-info a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6FCF97;
+}
+.small-post ,.small-post2 ,.small-post3 ,.small-post4{
+    position: absolute;
+    display: flex;
+    margin: 0 0 0 600px;
+    height: 295px;
+    width: 271px;
+    border-radius: 10px;
+}
+.small-post-image{
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+    width: 271px;
+    height: 160px;
+}
+.small-post-image img{
+    width: 271px;
+    height: 160px;
+}
+.small-post-date{
+    position: absolute;
+    display: flex;
+    margin-top: 170px;
+}
+.small-post-date p{
+    margin-left: 75px;
+}
+.small-post-info{
+    margin-top: 207px;
+}
+.small-post-info h4{
+    font-size: 16px;
+}
+.small-post2{
+    margin: 340px 0 0 600px;
+}
+.small-post3{
+    margin: 0 0 0 900px;
+}
+.small-post4{
+    margin: 340px 0 0 900px;
+}
+
+
+.blog-news-page{
+    position: absolute;
+    display: flex;
+    margin: 1620px 0 0 165px;
+    background-color: pink;
+    width: 1170px;
+    height: 455px;
+}
