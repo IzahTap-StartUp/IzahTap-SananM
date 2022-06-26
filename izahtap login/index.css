@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.loginPart{
+    position: relative;
+    margin: 40px 0 0 160px;
+    width: 1200px;
+    height: 650px;
+}
+.left-Bar{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 650px;
+}
+.left-Bar .left-bar-text{
+    position: absolute;
+    display: inline-block;
+}
+.left-Bar .left-bar-text p ,.left-Bar .left-bar-text h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3B4C9B;
+    margin: 63px 0 0 57px;
+}
+.left-Bar .left-bar-text h1{
+    color: #FFFFFF;
+    margin: 300px 0 0 57px; 
+}
+.login{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 600px;
+}
+.login_header{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    margin: 20px 0 0 100px;
+}
+.login_header #active a ,.login_header #deactive a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login_header #deactive a{
+    margin-left: 60px;
+    color: #B5B0B0;
+}
+.form-group{
+    position: absolute;
+    display: inline-block;
+    margin: 200px 0 0 100px;
+}
+.form-group form ,.form-group_mailInput{
+    position: absolute;
+}
+.form-group_mailInput input ,.form-group_passwordInput input{
+    border: 0;
+    background-color: transparent;
+	border-bottom: 2px solid #000; 
+    outline: none;
+    margin-top: 25px;
+    width: 400px;
+}
+.form-group_passwordInput{
+    position: absolute;
+    margin-top: 120px;
+}
+.form-group_passwordInput input{
+    margin-top: 25px;
+}
+.loginPart_submitPart{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 420px 0 0 100px;
+}
+.loginPart_submitPart p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.loginPart_submitPart button{
+    position: relative;
+    margin-top: 30px;
+    width: 400px;
+    height: 73px;
+    background: #6FCF97;
+    border: 1px solid #6FCF97;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.loginPart_submitPart button a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    text-decoration: none;
+}

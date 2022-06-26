@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500;600;700&family=Poppins:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;1,400&display=swap");
+
+:root {
+  --primary-bgColor: #F6F7FB;
+  --secondary-bgColor: #FFF;
+  --primary-textColor: #000000;
+  --secondary--textColor: #423C3C;
+  --primary--buttonBgColor: #6FCF97;
+  --disabled--buttonBgColor:  #27AE60;
+  --primary-cardBoxShadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Globals */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img.small {
+  /* */
+}
+
+img.medium {
+  /*  */
+}
+
+img.large {
+  /*  */
+}
+
+.row {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+.row.center {
+  justify-content: center;
+}
+.row.column {
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
