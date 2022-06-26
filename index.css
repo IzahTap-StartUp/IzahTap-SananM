@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.registerPart{
+    position: relative;
+    margin: 40px 0 0 160px;
+    width: 1200px;
+    height: 650px;
+}
+.register-left-Bar{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 650px;
+}
+.register-left-Bar .register-left-bar-text{
+    position: absolute;
+    display: inline-block;
+}
+.register-left-Bar .register-left-bar-text p ,.register-left-Bar .register-left-bar-text h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3B4C9B;
+    margin: 63px 0 0 57px;
+}
+.register-left-Bar .register-left-bar-text h1{
+    color: #FFFFFF;
+    margin: 300px 0 0 57px; 
+}
+.register{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 600px;
+}
+.register_header{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    margin: 20px 0 0 100px;
+}
+.register_header #active a ,.register_header #deactive a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #B5B0B0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.register_header #deactive a{
+    margin-left: 60px;
+    color: #000000;
+}
+.register-form-group{
+    position: absolute;
+    display: inline-block;
+    margin: 200px 0 0 100px;
+}
+.register-form-group{
+    position: absolute;
+    display: inline-block;
+    margin: 90px 0 0 100px;
+}
+.selection{
+    position: absolute;
+    display: flex;
+    margin-top: 35px;
+}
+#days, #months, #years{
+    width: 111px;
+    height: 53px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+}
+select option{
+    color: #ff9900;
+}
+.register-form-group_birthday{
+    position: absolute;
+    display: flex;
+}
+.register-form-group form ,.register-form-group_mailInput ,.register-form-group_passwordInput ,.register-form-group_nameInput{
+    position: absolute;
+}
+.register-form-group_mailInput input ,.register-form-group_passwordInput input ,.register-form-group_nameInput input{
+    background-color: transparent;
+	border: 2px solid #000; 
+    outline: none;
+    margin-top: 10px;
+    width: 400px;
+    height: 55px;
+}
+.register-form-group_mailInput{
+    margin-top: 115px;
+}
+.register-form-group_nameInput{
+    margin-top: 215px;
+}
+.register-form-group_passwordInput{
+    margin-top: 315px;
+}
+.registerPart_submitPart{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 520px 0 0 100px;
+}
+.registerPart_submitPart p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.registerPart_submitPart button{
+    position: relative;
+    margin-top: 10px;
+    width: 400px;
+    height: 73px;
+    background: #6FCF97;
+    border: 1px solid #6FCF97;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.registerPart_submitPart button a{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    text-decoration: none;
+}
