@@ -89,6 +89,14 @@ section{
 .form-group_passwordInput input{
     margin-top: 25px;
 }
+.form-group_passwordInput input[type=password] ,.form-group_mailInput input[type=email]{
+    color: #D9D9D9;
+    padding: 12px 5px;
+    margin: 8px 0;
+}
+.form-group_mailInput input[type=email]{
+    color: #000;
+}
 .loginPart_submitPart{
     position: absolute;
     display: inline-block;
