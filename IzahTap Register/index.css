@@ -108,6 +108,32 @@ select option{
 .register-form-group_mailInput{
     margin-top: 115px;
 }
+
+.register-form-group_mailInput input[type=email] ,.register-form-group_nameInput input[type=text] ,.register-form-group_passwordInput input[type=password]{
+    color: #817C7C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 12px 5px;
+    margin: 8px 0;
+}
+.register-form-group_passwordInput input[type=password]{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .register-form-group_nameInput{
     margin-top: 215px;
 }

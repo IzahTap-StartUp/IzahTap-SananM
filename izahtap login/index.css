@@ -93,9 +93,17 @@ section{
     color: #D9D9D9;
     padding: 12px 5px;
     margin: 8px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
 .form-group_mailInput input[type=email]{
     color: #000;
+}
+.form-group_passwordInput input[type=password]{
+    font-size: 15px;
 }
 .loginPart_submitPart{
     position: absolute;
