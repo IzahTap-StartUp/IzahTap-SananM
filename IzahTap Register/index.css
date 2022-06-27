@@ -87,8 +87,12 @@ section{
     background: #FFFFFF;
     border: 2px solid #000000;
 }
-select option{
-    color: #ff9900;
+.selection select{
+    font-weight: 200;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    color: #6FCF97;
 }
 .register-form-group_birthday{
     position: absolute;
@@ -108,7 +112,6 @@ select option{
 .register-form-group_mailInput{
     margin-top: 115px;
 }
-
 .register-form-group_mailInput input[type=email] ,.register-form-group_nameInput input[type=text] ,.register-form-group_passwordInput input[type=password]{
     color: #817C7C;
     font-family: 'Poppins';
@@ -116,24 +119,12 @@ select option{
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    padding: 12px 5px;
+    padding: 10px 10px;
     margin: 8px 0;
 }
 .register-form-group_passwordInput input[type=password]{
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .register-form-group_nameInput{
     margin-top: 215px;
 }

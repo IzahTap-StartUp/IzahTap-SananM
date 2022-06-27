@@ -91,7 +91,7 @@ section{
 }
 .form-group_passwordInput input[type=password] ,.form-group_mailInput input[type=email]{
     color: #D9D9D9;
-    padding: 12px 5px;
+    padding: 10px 10px;
     margin: 8px 0;
     font-family: 'Poppins';
     font-style: normal;
