@@ -21,7 +21,7 @@
     position: absolute;
     display: flex;
 }
-.blog-page-logo h1 ,.blog-page-links ul li a ,.first-blog-page-text h2 ,.first-blog-page-text p ,.first-post-date button ,.first-post-date p ,.first-post-info h4 ,.first-post-info a ,.small-post-info h4{
+.blog-page-logo h1 ,.blog-page-links ul li a ,.first-blog-page-text h2 ,.first-blog-page-text p ,.first-post-date button ,.first-post-date p ,.first-post-info h4 ,.first-post-info a ,.small-post-info h4 ,.blog-news-page-header p a ,.blog-news-page-header h3{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -131,6 +131,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    font-weight: 600;
 }
 .first-post-date p ,.small-post-date p{
     margin-left: 50px;
@@ -189,8 +190,6 @@
 .small-post4{
     margin: 340px 0 0 900px;
 }
-
-
 .blog-news-page{
     position: absolute;
     display: flex;
@@ -198,4 +197,27 @@
     background-color: pink;
     width: 1170px;
     height: 455px;
+}
+.blog-news-page-header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-news-page-header h3{
+    font-size: 32px;
+    line-height: 48px;    
+}
+.blog-news-page-header p{
+    margin: 15px 0 0 510px;
+}
+.blog-news-page-header p a{
+    font-size: 16px;
+    line-height: 24px;    
+    color: #6FCF97;
+}
+.small-post5{
+    margin: 120px 0 0 0;
+}
+.small-post6 ,.small-post7 ,.small-post8{
+    margin: 120px 0 0 300px;
 }
