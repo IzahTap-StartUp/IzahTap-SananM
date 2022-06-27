@@ -54,6 +54,7 @@
     height: 42.25px;
     background-color: #ffffff;
     border-color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     transform: rotate(-0.08deg);
 }
