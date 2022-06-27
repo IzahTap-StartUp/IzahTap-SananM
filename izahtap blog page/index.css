@@ -11,7 +11,7 @@
     height: 2533px;
     background-color: #F6F7FB;
 }
-.blog-page-nav{
+.blog-page-nav ,.blog-page-footer-nav{
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@
     position: absolute;
     display: flex;
 }
-.blog-page-logo h1 ,.blog-page-links ul li a ,.first-blog-page-text h2 ,.first-blog-page-text p ,.first-post-date button ,.first-post-date p ,.first-post-info h4 ,.first-post-info a ,.small-post-info h4 ,.blog-news-page-header p a ,.blog-news-page-header h3{
+.blog-page-logo h1 ,.blog-page-links ul li a ,.first-blog-page-text h2 ,.first-blog-page-text p ,.first-post-date button ,.first-post-date p ,.first-post-info h4 ,.first-post-info a ,.small-post-info h4 ,.blog-news-page-header p a ,.blog-news-page-header h3 ,.footer-first-list ul li a ,.list-header h5 ,.footer-first-list2 ul li a ,.footer-first-list3 ul li a ,.footer-first-list4 ul li a ,.footer-copyright p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -147,6 +147,7 @@
     font-size: 15px;
     line-height: 24px;
     color: #6FCF97;
+    cursor: pointer;
 }
 .small-post ,.small-post2 ,.small-post3 ,.small-post4{
     position: absolute;
@@ -194,7 +195,6 @@
     position: absolute;
     display: flex;
     margin: 1620px 0 0 165px;
-    background-color: pink;
     width: 1170px;
     height: 455px;
 }
@@ -220,4 +220,48 @@
 }
 .small-post6 ,.small-post7 ,.small-post8{
     margin: 120px 0 0 300px;
+}
+.blog-page-footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 2133px;
+}
+.blog-page-footer-nav{
+    margin: 30px 0 0 250px;
+}
+.list-header{
+    position: relative;
+    display: block;
+}
+.list-header h5{
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer-first-list ul ,.footer-first-list2 ul ,.footer-first-list3 ul ,.footer-first-list4 ul{
+    position: relative;
+    display: inline-block;
+    margin-top: 35px;
+}
+.footer-first-list ul li ,.footer-first-list2 ul li ,.footer-first-list3 ul li ,.footer-first-list4 ul li{
+    padding: 3px;
+}
+.footer-first-list ul li a ,.footer-first-list2 ul li a ,.footer-first-list3 ul li a ,.footer-first-list4 ul li a{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer-first-list2 ,.footer-first-list3 ,.footer-first-list4{
+    margin: 0 0 0 125px;
+}
+.footer-copyright{
+    position: absolute;
+    display: flex;
+    margin: 350px 0 0 250px;
+}
+.footer-copyright p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;    
 }
