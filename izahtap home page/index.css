@@ -11,7 +11,7 @@
     height: 3138px;
     background-color: #F6F7FB;
 }
-.home-page-nav{
+.home-page-nav ,.home-page-footer-nav{
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@
     position: absolute;
     display: flex;
 }
-.home-page-logo h1 ,.home-page-links ul li a ,.home-page-buttons #noBorder a ,.home-page-buttons button a ,.home-page-main-text h2 ,.home-page-main-text p ,.home-page-main-button button ,.home-page-mid-book-text h3 ,.home-page-mid-book-text p{
+.home-page-logo h1 ,.home-page-links ul li a ,.home-page-buttons #noBorder a ,.home-page-buttons button a ,.home-page-main-text h2 ,.home-page-main-text p ,.home-page-main-button button ,.home-page-mid-book-text h3 ,.home-page-mid-book-text p ,.user-word-text h3 ,.user-word-text p ,.user-word-button button a ,.home-page-footer-first-list ul li a ,.home-page-footer-first-list2 ul li a ,.home-page-footer-first-list3 ul li a ,.home-page-footer-first-list4 ul li a ,.home-page-footer-header h5 ,.home-page-footer-copyright p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -115,7 +115,7 @@
     display: flex;
     margin: 345px 0 0 950px;
 }
-.home-page-main-button button{
+.home-page-main-button button ,.user-word-button button{
     width: 141px;
     height: 80px;
     background-color: #6FCF97;
@@ -124,14 +124,12 @@
     color: #FFFFFF;
     cursor: pointer;
 }
-
-
 .home-page-mid{
     position: absolute;
     display: flex;
     margin: 780px 0 0 0;
     width: 100%;
-    height: 1170px;
+    height: 1240px;
     background-color: #ffffff;
 }
 .home-page-mid-book ,.home-page-mid-book2{
@@ -140,22 +138,22 @@
     width: 100%;
     height: 610px;
 }
-.home-page-mid-book-text{
+.home-page-mid-book-text ,.home-page-mid-book-text2{
     position: absolute;
     display: inline-block;
     margin: 150px 0 0 175px;
 }
-.home-page-mid-book-text h3{
+.home-page-mid-book-text h3 ,.home-page-mid-book-text2 h3{
     font-size: 24px;
     line-height: 36px;
 }
-.home-page-mid-book-text p{
+.home-page-mid-book-text p ,.home-page-mid-book-text2 p{
     margin: 50px 0 0 0;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
 }
-.home-page-mid-book-image{
+.home-page-mid-book-image ,.home-page-mid-book-image2{
     position: absolute;
     display: flex;
     margin: 100px 0 0 800px;
@@ -165,7 +163,99 @@
     border-radius: 15px;
 }
 .home-page-mid-book2{
-    background-color: pink;
     height: 560px;
     margin: 610px 0 0 0;
+}
+.home-page-mid-book-text2{
+    margin: 180px 0 0 850px;
+}
+.home-page-mid-book-image2{
+    margin: 130px 0 0 175px;
+    background: url(images/Rectangle\ 10.png);
+}
+.home-page-user-word{
+    position: absolute;
+    display: flex;
+    margin: 2070px 0 0 0;
+    width: 100%;
+    height: 500px;
+}
+.user-word-text{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 200px;
+    width: 1117px;
+    height: 330px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.user-word-text h3 ,.user-word-text p ,.user-word-button button a{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #303545;
+}
+.user-word-text p{
+    font-weight: 500;
+    color: #9C9FA4;
+}
+.user-word-button{
+    position: absolute;
+    display: flex;
+    margin: 420px 0 0 480px;
+}
+.user-word-button button{
+    width: 565px;
+    height: 59px;
+    border-radius: 120px;
+}
+.user-word-button button a{
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.home-page-footer{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 2738px;
+}
+.home-page-footer-nav{
+    margin: 45px 0 0 250px;
+}
+.home-page-footer-header{
+    position: relative;
+    display: block;
+}
+.home-page-footer-header h5{
+    font-size: 24px;
+    line-height: 36px;
+}
+.home-page-footer-first-list ul ,.home-page-footer-first-list2 ul ,.home-page-footer-first-list3 ul ,.home-page-footer-first-list4 ul{
+    position: relative;
+    display: inline-block;
+    margin-top: 35px;
+}
+.home-page-footer-first-list ul li ,.home-page-footer-first-list2 ul li ,.home-page-footer-first-list3 ul li ,.home-page-footer-first-list4 ul li{
+    padding: 3px;
+}
+.home-page-footer-first-list ul li a ,.home-page-footer-first-list2 ul li a ,.home-page-footer-first-list3 ul li a ,.home-page-footer-first-list4 ul li a{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.home-page-footer-first-list2 ,.home-page-footer-first-list3 ,.home-page-footer-first-list4{
+    margin: 0 0 0 125px;
+}
+.home-page-footer-copyright{
+    position: absolute;
+    display: flex;
+    margin: 360px 0 0 250px;
+}
+.home-page-footer-copyright p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;    
 }
