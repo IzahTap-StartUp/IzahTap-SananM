@@ -31,7 +31,84 @@
                 </div>
             </nav>
          </header>
-         
+         <!--Select Profile Photo-->
+         <div class="profile-photo-selection">
+            <div class="photo-section">
+                <img src="images/Ellipse 9.png">
+                <h4>Profile Photo</h4>
+            </div>
+            <div class="profile-images">
+                <div class="profile-images-header">
+                    <h3>Profil resmini sec</h3>
+                </div>
+                <div class="multiple-profile-images">
+                    <img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png"><img src="images/Ellipse 10.png">
+                </div>
+                <p id="or">or</p>
+                <div class="profile-photo-download">
+                    <button type="button"><a href="#">Download your photo</a></button>
+                </div>
+            </div>
+         </div>
+        <!--Select Account Type-->
+        <div class="profile-page-account-type">
+            <div class="account-section">
+                <img src="images/1.png">
+                <h4>Account type</h4>
+            </div>
+            <div class="choosing-type">
+                <div class="choose-job">
+                    <h3>Ogretmen ve ya Ogrenci hesabi</h3>
+                    <p>Choose account type</p>
+                </div>
+                <form class="choose-teacher-student">
+                    <input type="radio" id="ogretmen" name="choose" value="ogretmen" checked>
+                    <label for="Ogretmen">Ogretmen</label><br><br>
+                    <input type="radio" id="ogrenci" name="choose" value="ogrenci">
+                    <label for="Ogrenci">Ogrenci</label>
+                </form>
+            </div>
+        </div>
+        <!--Change Info-->
+        <div class="profile-page-change-info">
+            <div class="info-section">
+                <img src="images/Vector.png">
+                <h4>Change info</h4>
+            </div>
+            <div class="update-infos">
+                <div class="update-infos-header"><h3>E-posta adresini guncelle</h3></div>
+            </div>
+            <div class="profile-page-form-group">
+                <form>
+                    <div class="profile-page-form-group_birthday">
+                        <label for="birth">BIRTHDAY</label>
+                        <div class="profile-page-selection">
+                            <select name="days" id="profile-page-days">
+                                <option value="1">1</option>
+                            </select>
+                            <select name="months" style="margin-left: 20px;" id="profile-page-months">
+                                <option value="January">January</option>
+                            </select>
+                            <select name="years" style="margin-left: 20px;" id="profile-page-years">
+                                <option value="2003">2003</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="profile-page-form-group_nameInput">
+                        <label for="name">NAME<input type="text" required></label>
+                    </div>
+                    <div class="profile-page-form-group_mailInput">
+                        <label for="mail">EMAIL<input type="email" required></label>
+                    </div>
+                    <div class="profile-page-form-group_passwordInput">
+                        <label for="password">PASSWORD<input type="password" required></label>
+                    </div>
+                    <div class="updateButton">
+                        <button type="button"><a href="#">Update</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 </html>

@@ -9,7 +9,7 @@
     display: flex;
     width: 100%;
     height: 1761px;
-    background-color: #F6F7FB;
+    background-color: #F5F7FB;
 }
 .profile-page-header{
     position: absolute;
@@ -18,17 +18,23 @@
     height: 83px;
     background-color: #ffffff;
 }
+.profile-photo-selection ,.profile-page-account-type ,.profile-page-change-info{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 83px;
+}
 .profile-page-nav{
     position: absolute;
     display: flex;
     justify-content: space-between;
     margin: 22px 0 0 42px;
 }
-.profile-page-logo ,.profile-page-user{
+.profile-page-logo ,.profile-page-user ,.multiple-profile-images{
     position: absolute;
     display: flex;
 }
-.profile-page-logo h1 ,.profile-page-links ul li a{
+.profile-page-logo h1 ,.profile-page-links ul li a ,.profile-images-header h3 ,#or ,.profile-photo-download button a ,.choose-job p ,.choose-job h3 ,.update-infos-header h3 ,.updateButton button a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -50,7 +56,7 @@
     font-size: 16px;
     line-height: 24px;    
 }
-.profile-page-search{
+.profile-page-search ,.updateButton{
     position: absolute;
     display: flex;
     margin: -5px 0 0 855px;
@@ -73,4 +79,176 @@
 .profile-page-user img{
     width: 38px;
     height: 36px;
+}
+.profile-photo-selection{
+    margin: 148px 0 0 0;
+    height: 281px;
+}
+.photo-section ,.account-section ,.info-section{
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 152px;
+}
+.profile-images ,.choosing-type ,.update-infos{
+    position: absolute;
+    display: flex;
+    margin: 0 0 0 333px;
+    width: 912px;
+    height: 281px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.profile-images-header ,.choose-job ,.profile-photo-download ,.update-infos-header{
+    position: absolute;
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+.profile-images-header h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+}
+.multiple-profile-images{
+    margin: 55px 0 0 20px;
+}
+.multiple-profile-images img{
+    width: 43px; 
+    height: 42px;
+    padding: 5px;
+    cursor: pointer;
+}
+#or{
+   margin: 130px 0 0 440px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;   
+}
+.profile-photo-download{
+    margin: 200px 0 0 295px;
+}
+.profile-photo-download button ,.updateButton button{
+    width: 300px;
+    height: 39px;
+    background-color: #6FCF97;
+    border-radius: 10px;
+    border: 1px solid #6FCF97;    
+}
+.profile-photo-download button a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #FFFFFF;
+}
+.profile-page-account-type{
+    height: 281px;
+    margin: 550px 0 0 0;
+}
+.choose-job{
+    display: inline-block;
+}
+.choose-job h3 ,.update-infos-header h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;    
+}
+.choose-job p{
+    margin: 15px 0 0 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;    
+    color: #8C8585;
+}
+.choose-teacher-student{
+    margin: 120px 0 0 20px;
+}
+.choose-teacher-student input[type="radio"]{
+    width: 19px;
+    height: 18px;
+    background-color: #6FCF97;
+}
+.profile-page-change-info{
+    height: 912px;
+    margin: 850px 0 0 0;
+}
+.info-section{
+    margin: 100px 0 0 152px;
+}
+.update-infos{
+    margin: 85px 0 0 333px;
+    height: 739px;
+}
+.profile-page-form-group{
+    position: absolute;
+    display: inline-block;
+    margin: 200px 0 0 400px;
+}
+.profile-page-form-group_birthday{
+    position: absolute;
+    display: flex;
+}
+#profile-page-days, #profile-page-months, #profile-page-years{
+    width: 111px;
+    height: 53px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+}
+.profile-page-selection{
+    position: absolute;
+    display: flex;
+    margin-top: 35px;
+}
+.profile-page-selection select{
+    font-weight: 200;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    color: #6FCF97;
+}
+.profile-page-form-group form ,.profile-page-form-group_mailInput ,.profile-page-form-group_passwordInput ,.profile-page-form-group_nameInput{
+    position: absolute;
+}
+.profile-page-form-group_mailInput input ,.profile-page-form-group_passwordInput input ,.profile-page-form-group_nameInput input{
+    border: 0;
+    background-color: transparent;
+	border-bottom: 2px solid #000; 
+    outline: none;
+    margin-top: 10px;
+    width: 400px;
+    height: 55px;
+}
+.profile-page-form-group_nameInput{
+    margin-top: 115px;
+}
+.profile-page-form-group_mailInput input[type=email] ,.profile-page-form-group_nameInput input[type=text] ,.profile-page-form-group_passwordInput input[type=password]{
+    color: #817C7C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 10px;
+    margin: 8px 0;
+}
+.profile-page-form-group_passwordInput input[type=password]{
+    font-size: 12px;
+}
+.profile-page-form-group_mailInput{
+    margin-top: 225px;
+}
+.profile-page-form-group_passwordInput{
+    margin-top: 335px;
+}
+.updateButton{
+    margin: 500px 0 0 0;
+}
+.updateButton button{
+    width: 175px;
+}
+.updateButton button a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #FFFFFF;
 }
