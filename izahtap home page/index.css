@@ -21,7 +21,7 @@
     position: absolute;
     display: flex;
 }
-.home-page-logo h1 ,.home-page-links ul li a ,.home-page-buttons #noBorder a ,.home-page-buttons button a ,.home-page-main-text h2 ,.home-page-main-text p ,.home-page-main-button button{
+.home-page-logo h1 ,.home-page-links ul li a ,.home-page-buttons #noBorder a ,.home-page-buttons button a ,.home-page-main-text h2 ,.home-page-main-text p ,.home-page-main-button button ,.home-page-mid-book-text h3 ,.home-page-mid-book-text p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -123,4 +123,49 @@
     border-radius: 15px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+
+.home-page-mid{
+    position: absolute;
+    display: flex;
+    margin: 780px 0 0 0;
+    width: 100%;
+    height: 1170px;
+    background-color: #ffffff;
+}
+.home-page-mid-book ,.home-page-mid-book2{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 610px;
+}
+.home-page-mid-book-text{
+    position: absolute;
+    display: inline-block;
+    margin: 150px 0 0 175px;
+}
+.home-page-mid-book-text h3{
+    font-size: 24px;
+    line-height: 36px;
+}
+.home-page-mid-book-text p{
+    margin: 50px 0 0 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.home-page-mid-book-image{
+    position: absolute;
+    display: flex;
+    margin: 100px 0 0 800px;
+    width: 545px;
+    height: 412px;
+    background: url(images/Rectangle\ 8.png);
+    border-radius: 15px;
+}
+.home-page-mid-book2{
+    background-color: pink;
+    height: 560px;
+    margin: 610px 0 0 0;
 }
