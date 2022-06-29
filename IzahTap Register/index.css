@@ -14,18 +14,24 @@ section{
     margin: 40px 0 0 160px;
     width: 1200px;
     height: 650px;
+    background-color: #3B4C9B;
 }
 .register-left-Bar{
     position: absolute;
     display: flex;
-    width: 600px;
+    width: 700px;
+    height: 650px;
+    margin-left: -100px;
+}
+.register-left-Bar img{
+    width: 700px;
     height: 650px;
 }
 .register-left-Bar .register-left-bar-text{
     position: absolute;
     display: inline-block;
 }
-.register-left-Bar .register-left-bar-text p ,.register-left-Bar .register-left-bar-text h1{
+.register-left-Bar .register-left-bar-text p  ,.register-left-bar-text h1{
     font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -41,7 +47,7 @@ section{
 .register{
     position: absolute;
     display: flex;
-    width: 600px;
+    width: 700px;
     height: 650px;
     background-color: rgb(255, 255, 255);
     margin-left: 600px;
