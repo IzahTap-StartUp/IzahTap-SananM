@@ -71,6 +71,14 @@ section{
     display: inline-block;
     margin: 200px 0 0 100px;
 }
+.register-form-group label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;    
+    color: #868181;
+}
 .register-form-group{
     position: absolute;
     display: inline-block;
@@ -88,11 +96,14 @@ section{
     border: 2px solid #000000;
 }
 .selection select{
-    font-weight: 200;
     max-width: 100%;
     padding: 8px 24px 8px 10px;
     border: none;
     color: #6FCF97;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;    
 }
 .register-form-group_birthday{
     position: absolute;
