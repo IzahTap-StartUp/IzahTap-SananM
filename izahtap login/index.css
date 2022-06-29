@@ -10,16 +10,26 @@ section{
     width: 100%;
 }
 .loginPart{
-    position: relative;
-    margin: 40px 0 0 160px;
-    width: 1200px;
-    height: 650px;
+    position: absolute;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100vh;
 }
 .left-Bar{
     position: absolute;
     display: flex;
     width: 600px;
-    height: 650px;
+    height: 100vh;
+}
+.left-Bar{
+    position: absolute;
+    display: flex;
+    width: 780px;
+    height: 100vh;
+}
+.left-Bar img{
+    width: 770px;
+    height: 100vh;
 }
 .left-Bar .left-bar-text{
     position: absolute;
@@ -32,19 +42,19 @@ section{
     font-size: 40px;
     line-height: 60px;
     color: #3B4C9B;
-    margin: 63px 0 0 57px;
+    margin: 65px 0 0 111px;
 }
 .left-Bar .left-bar-text h1{
     color: #FFFFFF;
-    margin: 300px 0 0 57px; 
+    margin: 340px 0 0 110px; 
 }
 .login{
     position: absolute;
     display: flex;
-    width: 600px;
+    width: 700px;
     height: 650px;
     background-color: rgb(255, 255, 255);
-    margin-left: 600px;
+    margin: 55px 0 0 770px;
 }
 .login_header{
     position: absolute;
