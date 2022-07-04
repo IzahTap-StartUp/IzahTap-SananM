@@ -180,3 +180,74 @@ section{
     color: #fff;
     text-decoration: none;
 }
+@media only screen and (max-width:767px){
+    body{
+        background-color: #fff;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+        overflow: hidden;
+    }
+    .register-left-Bar{
+        display: none;
+    }
+    .register{
+        margin: 0 0 0 0;
+    }
+    .register_header{
+        margin: 40px 0 0 40px;
+    }
+    .selection{
+        margin-top: 40px;
+    }
+    #days, #months, #years{
+        width: 63px;
+        height: 34px;
+    }
+    .register-form-group label{
+        font-size: 16px;
+        line-height: 24px;    
+        color: #817C7C;
+    }
+    .register-form-group #birth{
+        font-size: 20px;
+        line-height: 30px;
+        color: #868181;
+    }
+    .register-form-group{
+        margin: 100px 0 0 40px;
+    }
+    .register-form-group_mailInput input ,.register-form-group_passwordInput input ,.register-form-group_nameInput input{
+        width: 230px;
+        height: 39px;
+    }
+    .register-form-group_mailInput{
+        margin-top: 95px;
+    }
+    .register-form-group_mailInput input[type=email] ,.register-form-group_nameInput input[type=text] ,.register-form-group_passwordInput input[type=password]{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .register-form-group_passwordInput input[type=password]{
+        font-size: 12px;
+    }
+    .register-form-group_nameInput{
+        margin-top: 195px;
+    }
+    .register-form-group_passwordInput{
+        margin-top: 295px;
+    }
+    .registerPart_submitPart{
+        text-align: left;
+        margin: 505px 0 0 40px;
+    }
+    .registerPart_submitPart button{
+        margin-top: 30px;
+        width: 230px;
+        height: 39px;
+    }
+    .registerPart_submitPart button a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
