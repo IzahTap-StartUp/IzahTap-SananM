@@ -259,3 +259,96 @@
     font-size: 24px;
     line-height: 36px;    
 }
+@media only screen and (max-width:767px){
+    body ,.home-page{
+        background-color: #fff;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+        overflow: hidden;
+    }
+    .home-page-nav ,.home-page-main-text p ,.home-page-footer{
+        display: none;
+    }
+    .home-page-main{
+        position: absolute;
+        display: flex;
+        margin: 40px 0 0 7px;
+        width: 280px;
+        height: 293px;
+    }
+    .home-page-main-text{
+        text-align: center;
+        margin: 100px 0 0 30px;
+    }
+    .home-page-main-text h2{
+        font-size: 24px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+    .home-page-main-button{
+        margin: 200px 0 0 70px;
+    }
+    .home-page-main-button button{
+        width: 144px;
+        height: 26px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .home-page-mid{
+        margin: 360px 0 0 7px;
+        height: 845px;
+        width: 280px;
+    }
+    .home-page-mid-book ,.home-page-mid-book2{
+        width: 280px;
+        height: 540px;
+    }
+    .home-page-mid-book-text, .home-page-mid-book-text2{
+        margin: 20px 0 0 0;
+    }
+    .home-page-mid-book-text h3 ,.home-page-mid-book-text2 h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .home-page-mid-book-text p ,.home-page-mid-book-text2 p{
+        margin: 20px 0 0 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .home-page-mid-book-image ,.home-page-mid-book-image2{
+        margin: 290px 0 0 0;
+        width: 280px;
+        height: 235px;
+    }
+    .home-page-mid-book2{
+        margin: 580px 0 0 0;
+    }
+    .home-page-user-word{
+        background-color: #F6F7FB;
+        margin: 1530px 0 0 7px;
+    }
+    .user-word-text{
+        width: 280px;
+        background-color: rgb(255, 255, 255);
+        margin: 40px 0 0 5px;
+    }
+    .user-word-text h3 ,.user-word-text p ,.user-word-button button a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .user-word-text p{
+        font-size: 20px;
+    }
+    .user-word-button{
+        margin: 420px 0 0 5px;
+    }
+    .user-word-button button{
+        width: 280px;
+        height: 45px;
+    }
+    .user-word-button button a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
