@@ -264,3 +264,120 @@
     font-size: 24px;
     line-height: 36px;    
 }
+
+
+@media only screen and (max-width:767px){
+    body ,.blog-page{
+        background-color: white;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+        overflow: hidden;
+    }
+    .blog-page{
+        position: absolute;
+        display: flex;
+        width: 290px;
+        height: 1853px;
+    }
+    .blog-page-nav ,.first-blog-page-text p ,.blog-page-footer ,.first-post-info a ,.small-post-info a
+    ,.blog-news-page
+    {
+        display: none;
+    }
+    .first-blog-page{
+        width: 290px;
+        height: 350px;
+        margin: 50px 0 0 2.5px;
+    }
+    .first-blog-page-text{
+        margin: 200px 0 0 0;
+    }
+    .first-blog-page-text h2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .first-blog-page-image{
+        width: 290px;
+        height: 205px;
+        margin: 0 0 0 0;
+    }
+    .first-blog-page-image img{
+        width: 290px;
+        height: 205px;
+    }
+    .second-blog-page{
+        height: 860px;
+        width: 290px;
+        margin: 430px 0 0 2.5px;
+    }
+    .first-post{
+        border-bottom: 1px solid #828282;
+        width: 290px;
+        height: 346px;
+        margin: 0 0 0 0;
+    }
+    .first-post-image ,.first-post-image img{
+        height: 205px;
+        width: 290px;
+    }
+    .first-post-date{
+        margin: 210px 0 0 0;
+    }
+    .first-post-date button{
+        width: 100px;
+    }
+    .first-post-date p{
+        margin-left: 80px;
+    }
+    .first-post-info{
+        margin-top: 250px;
+    }
+    .first-post-info h4{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .small-post ,.small-post2 ,.small-post3 ,.small-post4{
+        width: 290px;
+        height: 115px;
+        border-bottom: 1px solid black;
+        margin: 360px 0 0 0;
+    }
+    .small-post-image ,.small-post-image img{
+        width: 130px;
+        height: 113px;
+    }
+    .small-post-info{
+        margin: 0 0 0 135px;
+    }
+    .small-post-info h4{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .small-post-date{
+        display: block;
+        margin: 50px 0 0 135px;
+    }
+    .small-post-date button{
+        width: 69px;
+        height: 20px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .small-post-date p{
+        margin: 15px 0 0 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .small-post2{
+        margin: 485px 0 0 0;
+    }
+    .small-post3{
+        margin: 610px 0 0 0;
+    }
+    .small-post4{
+        margin: 735px 0 0 0;
+    }
+    
+    
+}
